@@ -4,6 +4,9 @@ import { PropsWithChildren } from 'react';
 import { Footer } from '~/components/footer';
 import { Header } from '~/components/header';
 
+import './global-custom.css';
+
+
 interface Props extends PropsWithChildren {
   params: Promise<{ locale: string }>;
 }

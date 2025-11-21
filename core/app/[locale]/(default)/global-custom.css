@@ -1,0 +1,9 @@
+.headroom-wrapper .headroom .custom-class li a {
+    font-size: 16px;
+    line-height: 100%;
+    color: blue;
+    text-decoration: underline;
+}
+.headroom-wrapper .headroom .custom-class li a:hover {
+    color: #000;
+}

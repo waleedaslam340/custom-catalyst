@@ -456,7 +456,7 @@ export const Navigation = forwardRef(function Navigation<S extends SearchResult>
         {/* Top Level Nav Links */}
         <ul
           className={clsx(
-            'hidden gap-1 @4xl:flex @4xl:flex-1',
+            'custom-class hidden gap-1 @4xl:flex @4xl:flex-1',
             {
               left: '@4xl:justify-start',
               center: '@4xl:justify-center',
